@@ -1,0 +1,200 @@
+[
+  {
+    "id": "claim-01",
+    "claim_text": "Python 3.11 is the latest stable version of Python.",
+    "category": "Software and APIs",
+    "expected_status": "POTENTIALLY_STALE",
+    "expected_risk": "HIGH",
+    "time_sensitive": true,
+    "ground_truth_notes": "Outdated claim. Python 3.12 and 3.13 are released, making Python 3.13 the latest stable release series."
+  },
+  {
+    "id": "claim-02",
+    "claim_text": "Python 3.13 is the latest stable release of Python.",
+    "category": "Software and APIs",
+    "expected_status": "VERIFIED",
+    "expected_risk": "HIGH",
+    "time_sensitive": true,
+    "ground_truth_notes": "Accurate and current release series."
+  },
+  {
+    "id": "claim-03",
+    "claim_text": "Guido van Rossum created Python and first released it in 1991.",
+    "category": "Technology",
+    "expected_status": "VERIFIED",
+    "expected_risk": "LOW",
+    "time_sensitive": false,
+    "ground_truth_notes": "Permanent historical fact."
+  },
+  {
+    "id": "claim-04",
+    "claim_text": "Parag Agrawal is currently the CEO of Twitter.",
+    "category": "Business",
+    "expected_status": "CONTRADICTED",
+    "expected_risk": "HIGH",
+    "time_sensitive": true,
+    "ground_truth_notes": "Outdated and contradicted. Linda Yaccarino became CEO of X (formerly Twitter) following Elon Musk's takeover."
+  },
+  {
+    "id": "claim-05",
+    "claim_text": "Sundar Pichai is the CEO of Alphabet Inc.",
+    "category": "Business",
+    "expected_status": "VERIFIED",
+    "expected_risk": "HIGH",
+    "time_sensitive": true,
+    "ground_truth_notes": "Accurate and current leadership."
+  },
+  {
+    "id": "claim-06",
+    "claim_text": "OpenAI released GPT-4 in March 2023.",
+    "category": "Technology",
+    "expected_status": "VERIFIED",
+    "expected_risk": "LOW",
+    "time_sensitive": false,
+    "ground_truth_notes": "Historical AI release date."
+  },
+  {
+    "id": "claim-07",
+    "claim_text": "The monthly subscription price for ChatGPT Plus is $20 per month.",
+    "category": "Software and APIs",
+    "expected_status": "VERIFIED",
+    "expected_risk": "HIGH",
+    "time_sensitive": true,
+    "ground_truth_notes": "Current pricing for ChatGPT Plus."
+  },
+  {
+    "id": "claim-08",
+    "claim_text": "Windows 7 is Microsoft's currently supported flagship operating system.",
+    "category": "Software and APIs",
+    "expected_status": "CONTRADICTED",
+    "expected_risk": "HIGH",
+    "time_sensitive": true,
+    "ground_truth_notes": "Contradicted. Windows 7 reached End of Life in Jan 2020; Windows 11 is the flagship OS."
+  },
+  {
+    "id": "claim-09",
+    "claim_text": "The speed of light in a vacuum is 299,792,458 meters per second.",
+    "category": "Science and Research",
+    "expected_status": "VERIFIED",
+    "expected_risk": "LOW",
+    "time_sensitive": false,
+    "ground_truth_notes": "Physical invariant constant."
+  },
+  {
+    "id": "claim-10",
+    "claim_text": "Albert Einstein received the Nobel Prize in Physics for the discovery of the photoelectric effect.",
+    "category": "Science and Research",
+    "expected_status": "VERIFIED",
+    "expected_risk": "LOW",
+    "time_sensitive": false,
+    "ground_truth_notes": "Historical Nobel award fact."
+  },
+  {
+    "id": "claim-11",
+    "claim_text": "The iPhone 11 Pro is Apple's latest flagship smartphone.",
+    "category": "Technology",
+    "expected_status": "POTENTIALLY_STALE",
+    "expected_risk": "HIGH",
+    "time_sensitive": true,
+    "ground_truth_notes": "Outdated. iPhone 15 and iPhone 16 are the current flagship series."
+  },
+  {
+    "id": "claim-12",
+    "claim_text": "A standard Tesla Model 3 has a battery driving range of 1,500 miles on a single charge.",
+    "category": "Technology",
+    "expected_status": "CONTRADICTED",
+    "expected_risk": "HIGH",
+    "time_sensitive": true,
+    "ground_truth_notes": "Factual contradiction. Model 3 range is approximately 270-360 miles."
+  },
+  {
+    "id": "claim-13",
+    "claim_text": "Amazon Web Services (AWS) originally launched in 2006.",
+    "category": "Technology",
+    "expected_status": "VERIFIED",
+    "expected_risk": "LOW",
+    "time_sensitive": false,
+    "ground_truth_notes": "Historical cloud launch date."
+  },
+  {
+    "id": "claim-14",
+    "claim_text": "Boris Johnson is the current Prime Minister of the United Kingdom.",
+    "category": "Government and Regulations",
+    "expected_status": "CONTRADICTED",
+    "expected_risk": "HIGH",
+    "time_sensitive": true,
+    "ground_truth_notes": "Outdated and contradicted. Keir Starmer is the current Prime Minister."
+  },
+  {
+    "id": "claim-15",
+    "claim_text": "React 19 was officially announced and released with React Server Actions and Actions support.",
+    "category": "Software and APIs",
+    "expected_status": "VERIFIED",
+    "expected_risk": "HIGH",
+    "time_sensitive": true,
+    "ground_truth_notes": "Current React 19 architecture."
+  },
+  {
+    "id": "claim-16",
+    "claim_text": "AngularJS 1.x is currently actively receiving new major feature updates from Google.",
+    "category": "Software and APIs",
+    "expected_status": "CONTRADICTED",
+    "expected_risk": "HIGH",
+    "time_sensitive": true,
+    "ground_truth_notes": "Contradicted. AngularJS reached End of Life (EOL) on Jan 1, 2022."
+  },
+  {
+    "id": "claim-17",
+    "claim_text": "The United States federal statutory corporate income tax rate under the TCJA is 21%.",
+    "category": "Finance",
+    "expected_status": "VERIFIED",
+    "expected_risk": "MEDIUM",
+    "time_sensitive": true,
+    "ground_truth_notes": "Current corporate statutory tax rate in the US."
+  },
+  {
+    "id": "claim-18",
+    "claim_text": "Quantum computers from Aethelgard Quantum Inc operate at room temperature with 1 million logical qubits.",
+    "category": "Science and Research",
+    "expected_status": "UNVERIFIED",
+    "expected_risk": "HIGH",
+    "time_sensitive": true,
+    "ground_truth_notes": "Fabricated entity; unsupported and unverified in real literature."
+  },
+  {
+    "id": "claim-19",
+    "claim_text": "The United Nations declared that the world population reached 8 billion people in November 2022.",
+    "category": "General Knowledge",
+    "expected_status": "VERIFIED",
+    "expected_risk": "LOW",
+    "time_sensitive": false,
+    "ground_truth_notes": "Established UN demographic milestone."
+  },
+  {
+    "id": "claim-20",
+    "claim_text": "Google was founded in September 1998 by Larry Page and Sergey Brin.",
+    "category": "Technology",
+    "expected_status": "VERIFIED",
+    "expected_risk": "LOW",
+    "time_sensitive": false,
+    "ground_truth_notes": "Standard historical tech fact."
+  },
+  {
+    "id": "claim-21",
+    "claim_text": "The total market capitalization of Apple is exactly $50 billion.",
+    "category": "Finance",
+    "expected_status": "CONTRADICTED",
+    "expected_risk": "HIGH",
+    "time_sensitive": true,
+    "ground_truth_notes": "Direct contradiction. Apple's market capitalization is above $3 Trillion."
+  },
+  {
+    "id": "claim-22",
+    "claim_text": "Expert timelines for when Artificial General Intelligence will arrive range widely between 2026 and 2040.",
+    "category": "Science and Research",
+    "expected_status": "CONFLICTING_EVIDENCE",
+    "expected_risk": "MEDIUM",
+    "time_sensitive": true,
+    "ground_truth_notes": "Subject of conflicting expert opinions and projections."
+  }
+]
